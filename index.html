@@ -4,201 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="work.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <video autoplay loop muted src="img/12676888_3840_2160_30fps.mp4"></video>
-    <div class="inside">
-        <img class="phone" src="img/—Pngtree—design mobile phone screen mockup_6457855 - Copie.png" alt="">
-        <div class="screen">
-            <div class="bottom-bar"></div>
-            <div class="cam-bar"><img src="img/cam.png" alt=""></div>
-            <div style="position: absolute;top: 0;"></div>
-
-            <div id="container1" class="container-in-screen">
-                <a href="#home-section" class="down"><i class="fa-solid fa-down-long"></i></a>
-                <div class="black-tape firste"></div>
-                <div class="black-tape second"></div>
-                <a class="menu"><i class="fa-solid fa-list"></i></a>
-                <div>
-                    <div><a href="#home-section" class="bhome">
-                            <pre class="first home">Home</pre>
-                        </a></div>
-                    <a href="#about-section" style="z-index: -1;">
-                        <pre class="first about">  ABOUT</pre>
-                    </a>
-                    <a href="#projects-section">
-                        <pre class="first projects">    PROJECTS</pre>
-                    </a>
-                    <a href="#contact-section">
-                        <Pre class="first contact">      CONTACT</Pre>
-                    </a>
-
-
+    <span id="folowingCircle" class="folowingCircle"></span>
+    <article id="mainContainer" class="mainContainer">
+        <div class="container">
+            <header class="NunitoSans">
+                <span class="Title Literata">Bouyanna Younes</span>
+                <ul class="ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a id="projectGo" href="#projects">Projects</a></li>
+                    <li><a id="contactGo" href="#contact">Contact</a></li>
+                </ul>
+                <button class="hireMeBtn NunitoSans">Hire Me</button>
+            </header>
+            <section class="Home">
+                <h1 id="home" class="mainText Literata">Rooted in <span
+                        style="color: #4a7c59;">Console</span>,<br>Refined by
+                    Code.</h1>
+                <p class="secondText NunitoSans">I am a <b>web developer</b> and designer dedicated to creating
+                    high-performance, sustainable digital
+                    experiences built with precision and organic soul.</p>
+                <div class="btm">
+                    <button onclick="document.getElementById('contactGo').click()" class="hireMeBtn NunitoSans">Hire Me</button>
+                    <button onclick="document.getElementById('projectGo').click()" class="viewProjects NunitoSans">View Projects</button>
                 </div>
-            </div>
-            <div id="home-section" class="home-section">
-                <!-- <div style="z-index: 100 ;"><i class="fa-solid fa-user me"></i></div> -->
-                <div><img class="me" src="img/me.png " alt=""></div>
-                <p class="my-name">Younes bouyanna</p>
-                <p class="job"><span class="s1">Full</span>-<span class="s2">stack</span>
-                    <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
-                </p>
-                <div class="skill python">Python lunguage</div>
-                <div class="skill html">html coding</div>
-                <div class="skill css">css styling</div>
-                <div class="skill bootstrap">bootstrap for fast styling</div>
-                <div class="skill data">data base bulding</div>
-                <div class="skill more">and more...</div>
-                <a href="#container1" class="up"><i class="fa-solid fa-up-long"></i></a>
-                <a href="#about-section" class="down"><i class="fa-solid fa-down-long"></i></a>
-                <!-- <div class="black-tape third"></div>
-                <div class="black-tape fore"></div> -->
-            </div>
-            <div id="about-section" class="about-section">
-                <a href="#home-section" class="up"><i class="fa-solid fa-up-long"></i></a>
-                <a href="#projects-section" class="down"><i class="fa-solid fa-down-long"></i></a>
-                <div class="the-traine">
-                    <div class="cards card1">Who I'm?</div>
-                    <div class="small-screen">
-                        Bouyanna Younes,<br>
-                        front&back end developer, 20years old from morocco, i love codding and make deferent.
-                    </div>
-                    <div class="cards card2">My Career</div>
-                    <div class="small-screen">
-                        - 2025-2027: studing in "EPIM-meknes"
-
-                    </div>
-                    <div class="cards card3">Certificates</div>
-                    <div class="small-screen">
-                        - web developer in (EPIM)
-                    </div>
-                    <div class="cards card4">My Skills</div>
-                    <div class="small-screen">
-                        - HTML <br>
-                        - CSS <br>
-                        - BOOTSTRAP <br>
-                        - PYTHON lunguage <br>
-                        - JAVA-SCRIPT <br>
-                        - PHP <br>
-                        - REACT <br>
-                        - .NET <br>
-                        - MY SQL <br>
-                        - UX-UI design <br>
-                    </div>
-                    <div class="cards card5">Out Of Work</div>
-                    <div class="small-screen">
-                        i like to spen some time in playing volley ball:
-                        <img style="width: 200px; border-radius: 20px;" src="img/proxy-image.jpg" alt="">
-                    </div>
-                    <div class="cards card6">View</div>
-                    <div class="small-screen">
-                        i want to make the work is funy and acceptable.
-                    </div>
-                    <div class="cards card7">My Value</div>
-                    <div class="small-screen">
-                        abandoning the principles, its make bad.
-                    </div>
-                    <div class="cards card8">My "Fuel"</div>
-                    <div class="small-screen">
-                        the fuel not cames to the car, but it trying to find him.
-                    </div>
-                    <div class="cards card9">My opinion</div>
-                    <div class="small-screen">
-                        work smart not hard, and never care about the result
-                    </div>
-                    <div class="cards card10">Why With Me?</div>
-                    <div class="small-screen">
-
-                    </div>
-
+            </section>
+            <section class="About">
+                <div class="leftAbout">
+                    <img id="about" class="myPic" src="img/me.jpg" alt="">
+                    <span class="myPicIsSpan"><span class="insidSpan"><i class="fa-solid fa-terminal"></i> Clean Code &
+                            <br>Structure Logic</span>
+                    </span>
                 </div>
-
-            </div>
-            <div id="projects-section" class="projects-section">
-                <a href="#about-section" class="up"><i class="fa-solid fa-up-long"></i></a>
-                <a href="#contact-section" class="down"><i class="fa-solid fa-down-long"></i></a>
-                <div class="inside-projects">
-                    <a class="main-cont" href="https://web-dev-younes-s-1.github.io/dashboard/">
-                        <img class="projects" src="img/Screenshot 2026-01-06 at 21-21-05 Document.png" alt="">
-                        <h3>DASHBOARD </h3>
-                    </a>
-                    <a class="main-cont" href="https://web-dev-younes-s-1.github.io/OMINIFOOD/">
-                        <img class="projects" src="img/ominifood-pic.png" alt="">
-                        <h3>OMNIFOOD </h3>
-                    </a>
-                    <a class="main-cont" href="https://web-dev-younes-s-1.github.io/nav-bar/">
-                        <img class="projects" src="img/navbar-pic.png" alt="">
-                        <h3>NAVBAR</h3>
-                    </a>
-                    <a class="main-cont" href="https://web-dev-younes-s-1.github.io/abibas/">
-                        <img class="projects" src="img/abibas-pic.png" alt="">
-                        <h3>ABIBAS</h3>
-                    </a>
-                    <a class="main-cont" href="https://web-dev-younes-s-1.github.io/lemon/">
-                        <img class="projects" src="img/lemon-pic.png" alt="">
-                        <h3>LEMON-SITE</h3>
-                    </a>
-
-                    </a>
-
-                </div>
-            </div>
-            <div id="contact-section" class="contact-section">
-                <a href="#projects-section" class="up"><i class="fa-solid fa-up-long"></i></a>
-
-                <div class="contact-me">
-                    <div class="left-side">
-                        <div class="between">
-                            <i class="fa-brands fa-linkedin imo"></i>
-                            <a href="https://www.linkedin.com/in/bouyanna-younes-29267038b/">Bouyanna Younes</a><br>
-
-                        </div>
-                        <div class="between">
-                            <i class="fa-brands fa-square-instagram imo"></i>
-                            <a href="https://www.instagram.com/younes_s_1/">younes_s_1</a><br>
-
-                        </div>
-                        <div class="between">
-                            <i class="fa-solid fa-phone imo"></i>
-                            <a href="tel:+212 612062021">+212 6 12 06 20 21</a><br>
-
-                        </div>
-                        <div class="between">
-                            <i class="fa-solid fa-envelope imo"></i>
-                            <a href="mailto:younes.bouyanna2@gmail.com">Email</a><br>
-                        </div>
-                    </div>
-                    <div class="slach"></div>
-                    <div class="right-side">
-                        <h3 >let a message here:</h3>
-                        <form action="" class="opinion-field" >
-                            <input  type="email" placeholder="Your Email" required>
-                            <textarea placeholder="Your Message" name="" id=""></textarea>
-                            <input class="submit1" type="submit" value="send">
-                        </form>
+                <div class="rightAbout">
+                    <h2 class="Literata">Crafting with Intention</h2>
+                    <p class="NunitoSans">My logic is simple: technology should serve humanity, not the other way
+                        around. I specialize in <b>building interfaces</b> that respect the user's attention and the
+                        environment's resources, and building an <br> <b>insid structure</b> that makes the code work
+                        flexibly. As a <b>FullStack</b> Developer, I prioritize clean architecture and sustainable
+                        performance. </p>
+                    <div class="skills">
+                        <span class="leftSpan">
+                            <p class="Core"><i class="fa-solid fa-code"></i><span>Core Stack</span></p>
+                            <ul class="NunitoSans">
+                                <li>javaScript</li>
+                                <li>Php</li>
+                                <li>Python</li>
+                                <li>MySql</li>
+                            </ul>
+                        </span>
+                        <span class="rightSpan">
+                            <p class="Values"><i class="fa-solid fa-signature"></i><span>Values</span></p>
+                            <ul class="NunitoSans">
+                                <li>Responsive Design</li>
+                                <li>Cohesive Website</li>
+                                <li>Ai Tools</li>
+                                <li>Structured DB </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
-            </div>
-
-
+            </section>
+            <section class="Projects">
+                <div class="ProjectsHead">
+                    <div>
+                        <p id="projects" class="NunitoSans">SELECTED WORKS</p>
+                        <h2 class="Literata">Recent Deployments</h2>
+                    </div>
+                    <p class="git NunitoSans"><a href="https://github.com/web-dev-younes-s-1">GitHub Portfolio</a> <i
+                            class="fa-solid fa-arrow-right"></i>
+                    </p>
+                </div>
+                <div class="ProjectsBody">
+                    <div class="project">
+                        <img src="img/todoList.png" alt="">
+                        <div>
+                            <span class="span1">javaScript</span>
+                            <span class="span2">Html/Css</span>
+                        </div>
+                        <h2 class="Literata">ToDo-List</h2>
+                        <p class="NunitoSans">My Tasks is a JavaScript-based task manager that allows users to add,
+                            edit, and delete tasks easily.</p>
+                        <a class="NunitoSans" href="https://web-dev-younes-s-1.github.io/todoList/">Live Demo <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project">
+                        <img src="img/todoList.png" alt="">
+                        <div>
+                            <span class="span1">javaScript</span>
+                            <span class="span2">Html/Css</span>
+                        </div>
+                        <h2 class="Literata">ToDo-List</h2>
+                        <p class="NunitoSans">My Tasks is a JavaScript-based task manager that allows users to add,
+                            edit, and delete tasks easily.</p>
+                        <a class="NunitoSans" href="">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project">
+                        <img src="img/todoList.png" alt="">
+                        <div>
+                            <span class="span1">javaScript</span>
+                            <span class="span2">Html/Css</span>
+                        </div>
+                        <h2 class="Literata">ToDo-List</h2>
+                        <p class="NunitoSans">My Tasks is a JavaScript-based task manager that allows users to add,
+                            edit, and delete tasks easily.</p>
+                        <a class="NunitoSans" href="">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="Contact">
+                <div class="contactHead">
+                    <h2 id="contact" class="Literata">Let's Build Something Robust</h2>
+                    <p class="NunitoSans">Looking for a developer who values precision and nature? Reach out below.</p>
+                </div>
+                <div class="form">
+                    <form action="https://formspree.io/f/xdaybpnw" method="post">
+                        <div class="line1">
+                            <div class="">
+                                <label for="name">Your Name</label><br>
+                                <input required class="input" id="name" type="text" name="name"
+                                    placeholder="john smith">
+                            </div>
+                            <div class="in">
+                                <label for="email">Email Address</label><br>
+                                <input required id="email" class="input" name="email" id="name" type="email"
+                                    placeholder="john_1@example.come">
+                            </div>
+                        </div>
+                        <div class="line2">
+                            <div>
+                                <label for="type">Project Type</label><br>
+                                <select required name="type" class="select" name="" id="type">
+                                    <option selected value="Business">Business</option>
+                                    <option value="Project">Project</option>
+                                    <option value="Consultation">Consultation</option>
+                                    <option value="More">More</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="line3">
+                            <div style="display: flex;flex-direction: column; ">
+                                <label for="area">Project Type</label><br>
+                                <textarea required name="discription" class="textarea" name="" id="area"
+                                    placeholder="Describe the technical requirements of your vision..."></textarea>
+                            </div>
+                        </div>
+                        <button class="submit" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
         </div>
-    </div>
-    <!-- <script>
-        document.querySelector('.about').addEventListener('click', function (e) {
-            e.preventDefault();
-            this.classList.toggle('active');
-        });
-        document.querySelector('.home').addEventListener('click', function (e) {
-            e.preventDefault();
-            this.classList.toggle('active');
-        });
-    </script> -->
+        <footer>
+            <div class="envelope">
+                <a style="color: #4a7c59;" href="#contact"><i style="pointer-events: none;" class="fa-solid fa-envelope"></i></a>
+            </div>
+            <h3>Younes Dev.</h3>
+            <p><i class="fa-regular fa-copyright"></i>2026 Younes Web Dev. Precision in Code </p>
+            <div class="three">
+                <a href="https://www.linkedin.com/in/bouyanna-younes-29267038b/">LinkedIn</a>
+                <a href="mailto:younes.bouyanna2@gmail.com">EmailMe</a>
+                <a href="tel:0612062021">Phone</a>
+            </div>
+        </footer>
 
-    <script src="https://kit.fontawesome.com/3c5a867fce.js" crossorigin="anonymous"></script>
+    </article>
+
 </body>
+
+<script src="https://kit.fontawesome.com/3c5a867fce.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 
 </html>
