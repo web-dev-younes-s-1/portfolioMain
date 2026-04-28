@@ -486,5 +486,14 @@ footer:hover .envelope{
         margin-top: 40px;
     }
 }
+@media  (max-width:570px){
+    .myPic{
+        width: 100%;
+    }
+    .leftAbout{
+       width:  90%;
+    }
+    
+}
 
 
