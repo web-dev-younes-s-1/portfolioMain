@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  
+
   const response = await fetch('https://formspree.io/f/xdaybpnw', {
     method: 'POST',
     body: new FormData(form),
@@ -15,3 +15,18 @@ form.addEventListener('submit', async (e) => {
     alert('Some thing wrong! please refill it');
   }
 });
+
+
+new Typed('#console-word', {
+  strings: ['Console', 'Terminal', 'Logic'],
+  typeSpeed: 80,
+  backSpeed: 50,
+  backDelay: 5000,
+  loop: true,
+  showCursor: true,
+  cursorChar: '|'
+});
+console.log('helllo');
+
+
+
